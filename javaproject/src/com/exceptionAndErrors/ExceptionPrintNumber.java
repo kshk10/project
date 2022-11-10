@@ -8,7 +8,7 @@ public class ExceptionPrintNumber {
 			System.out.println(" Before Execution ");
 			int i = 10 / 0;
 			System.out.println(" After Execution ");
-		} catch (Exception e) {
+		}catch (Exception e) {
 			e.printStackTrace();
 		} finally {
 			System.out.println(" Finally ");
